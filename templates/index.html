@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Converter</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Converter</h1>
+        <form action="/convert" method="post" enctype="multipart/form-data">
+            <div class="upload-section">
+                <input type="file" name="file" id="file">
+            </div>
+            <div class="conversion-section">
+                <select name="convert_to">
+                    <option value="pdf">PDF</option>
+                    <option value="jpg">JPG</option>
+                    <option value="png">PNG</option>
+                </select>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+    </div>
+</body>
+</html>
