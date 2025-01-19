@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversion Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>File Converted Successfully!</h1>
+        <div class="result-section">
+            <a href="{{ url_for('download_file', filename=converted_file) }}" class="download-button">
+                Download Converted File
+            </a>
+        </div>
+        <div class="back-section">
+            <a href="{{ url_for('index') }}" class="back-button">Convert Another File</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -25,3 +25,34 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.result-section {
+    margin: 30px 0;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #666;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
